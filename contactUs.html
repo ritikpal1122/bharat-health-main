@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Bharat Health</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+
+    <link href="assets/img/logo_icon.ico" rel="icon">
+    <link href="assets/img/logo_icon.ico" rel="apple-touch-icon">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/contactUs.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <header id="header" class="fixed-top  header-transparent ">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <a href="/"><img src="./assets/img/logo.png" alt="BharatHealth logo" /></a>
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" href="#hero" onclick="redirectToAnotherPage('index.html')">Home</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#features"
+                            onclick="redirectToAnotherPage('about.html')">About</a></li>
+                    <li class="dropdown"><a href="javascript:void(0)"><span
+                                onclick="redirectToAnotherPage('features.html')">Feature</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#" onclick="redirectToAnotherPage('features.html')">Drop Down 1</a></li>
+                            <li><a href="#" onclick="redirectToAnotherPage('features.html')">Drop Down 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="javascript:void(0)"><span>Pages</span> <i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="#">Drop Down 1</a></li>
+                            <li><a href="#">Drop Down 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#blog" onclick="redirectToAnotherPage('blog.html')">Blog</a>
+                    </li>
+                    <li><a class="nav-link scrollto active" href="#contact"
+                            onclick="redirectToAnotherPage('contactUs.html')">Contact</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+
+            </nav>
+            <span class="navbar-text">
+                <a class="getstarted scrollto" href="javascript:void(0);">Sign In</a>
+            </span>
+        </div>
+    </header>
+
+
+    <main class="contact-us-container">
+
+        <div class="contact-us-box-container">
+
+            <div class="contact-us-header">Get in touch today!</div>
+
+            <div class="contact-us-body">
+
+                <div class="contact-us-box">
+                    <svg class="mail-icon" xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83"
+                        fill="none">
+                        <rect width="83" height="83" rx="20" fill="#9570FF" />
+                        <path
+                            d="M18 36L40.5 44.6207L63 36V51C63 56.5228 58.5228 61 53 61H28C22.4772 61 18 56.5228 18 51V36Z"
+                            fill="#BFA9FF" />
+                        <path
+                            d="M18 33C18 27.4772 22.4772 23 28 23H53C58.5228 23 63 27.4772 63 33V33.3636L40.5 42L18 33.3636V33Z"
+                            fill="white" />
+                    </svg>
+                    <div class="mail-text">Mail Us</div>
+                    <div class="mail-data">saasup@gmail.co</div>
+                </div>
+
+                <div class="contact-us-box">
+                    <svg class="call-icon" xmlns="http://www.w3.org/2000/svg" width="83" height="83" viewBox="0 0 83 83"
+                        fill="none">
+                        <rect width="83" height="83" rx="20" fill="#F563D3" />
+                        <path
+                            d="M21.0699 31.0158C21.0839 31.0944 21.0952 31.173 21.0999 31.2523C21.1592 32.2695 21.9282 40.3854 31.5962 50.2673C31.5962 50.2673 39.9477 58.7782 48.7374 60.5676C48.7754 60.5755 48.8128 60.584 48.8508 60.5945C49.383 60.7392 53.9075 61.8828 56.2398 59.5439L59.5626 56.2807C59.5926 56.2512 59.6239 56.2224 59.6559 56.1949C59.9874 55.91 62.295 53.778 59.9867 51.5111C57.6504 49.2167 54.7052 46.4192 54.3717 46.1022C54.3557 46.0871 54.3404 46.0721 54.3251 46.0563C54.1443 45.8716 52.4276 44.2106 50.4168 45.7282C50.3587 45.7721 50.304 45.8212 50.252 45.8723L46.9987 49.0758C46.2697 49.7668 45.1119 49.7577 44.3936 49.0555L33.2789 38.1821C32.5326 37.4517 32.552 36.259 33.3216 35.5523L35.9227 33.1655C35.9227 33.1655 38.7726 30.5744 35.712 27.7756L31.1687 23.3138C31.1407 23.2863 31.114 23.2581 31.0874 23.2287C30.7939 22.9038 28.6163 20.6794 26.0613 23.1553C25.9832 23.2306 25.8985 23.2987 25.8085 23.359C24.9415 23.9433 20.3849 27.2077 21.0699 31.0158Z"
+                            fill="white" />
+                        <path
+                            d="M51.6928 38.9647C52.3964 38.9643 52.9758 38.3908 52.8762 37.6942C52.7531 36.834 52.5058 35.994 52.1402 35.2009C51.5962 34.0209 50.8032 32.9726 49.8156 32.1282C48.828 31.2838 47.6693 30.6633 46.4191 30.3092C45.5788 30.0713 44.7105 29.9575 43.8417 29.9696C43.1381 29.9794 42.6615 30.6408 42.7705 31.336C42.8795 32.0312 43.5348 32.4931 44.2378 32.5227C44.7397 32.5438 45.2387 32.6234 45.7248 32.7611C46.621 33.0149 47.4516 33.4597 48.1596 34.065C48.8676 34.6704 49.4361 35.4218 49.826 36.2677C50.0375 36.7265 50.1938 37.2071 50.2926 37.6996C50.431 38.3895 50.9891 38.9651 51.6928 38.9647Z"
+                            fill="#F9A1E5" />
+                        <path
+                            d="M56.9542 39.1092C57.8018 39.1755 58.552 38.5406 58.5203 37.691C58.4627 36.1458 58.1367 34.6182 57.5531 33.1778C56.7762 31.2605 55.5642 29.55 54.0128 28.1816C52.4613 26.8132 50.6129 25.8242 48.6136 25.2929C47.1116 24.8937 45.5553 24.761 44.0149 24.8968C43.168 24.9715 42.6318 25.7951 42.8034 26.6278C42.9751 27.4604 43.7906 27.984 44.6396 27.9387C45.7082 27.8816 46.7824 27.9919 47.8228 28.2684C49.3608 28.6772 50.7827 29.4379 51.9762 30.4906C53.1696 31.5433 54.102 32.859 54.6996 34.334C55.1038 35.3317 55.3474 36.3837 55.4242 37.4511C55.4853 38.2991 56.1066 39.0429 56.9542 39.1092Z"
+                            fill="#F9A1E5" />
+                    </svg>
+                    <div class="mail-text">Call Us</div>
+                    <div class="mail-data">+001 6547 6589</div>
+                </div>
+
+            </div>
+
+            <div class="contact-us-card">
+
+                <div class="contact-part">
+
+                    <div class="contact-input-box">
+                        <label class="label-text">Full Name *</label>
+                        <input class="contact-input" placeholder="your-name">
+                    </div>
+
+
+                    <div class="contact-input-box">
+                        <label class="label-text">Your Email *</label>
+                        <input class="contact-input" placeholder="your-email">
+                    </div>
+
+                </div>
+
+                <div class="contact-part">
+
+                    <div class="contact-input-box">
+                        <label class="label-text">Company *</label>
+                        <input class="contact-input" placeholder="your-name">
+                    </div>
+
+
+                    <div class="contact-input-box">
+                        <label class="label-text">Subject *</label>
+                        <input class="contact-input" placeholder="your-email">
+                    </div>
+
+                </div>
+
+                <div class="contact-textarea">
+                    <label class="label-text">Mesaage</label>
+                    <textarea class="textarea-box" placeholder="your-message"></textarea>
+                </div>
+
+                <button class="send-message">Send Message</button>
+
+            </div>
+
+        </div>
+
+        <div class="location-container">
+
+            <div class="location-title">
+                We help small businesses with big
+                hearts make meaningful hires
+            </div>
+
+            <div class="location-card-container">
+
+                <div class="location-card">
+                    <div class="location-icon">
+                        <svg class="location-svg" xmlns="http://www.w3.org/2000/svg" width="85" height="84"
+                            viewBox="0 0 85 84" fill="none">
+                            <circle cx="42.5" cy="42" r="42" fill="#FAD5E9" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M42.4286 61C42.4286 61 56.3571 43.6211 56.3571 35.9286C56.3571 28.236 50.1211 22 42.4286 22C34.736 22 28.5 28.236 28.5 35.9286C28.5 43.6211 42.4286 61 42.4286 61ZM42.8265 41.102C45.9035 41.102 48.398 38.6076 48.398 35.5306C48.398 32.4536 45.9035 29.9592 42.8265 29.9592C39.7495 29.9592 37.2551 32.4536 37.2551 35.5306C37.2551 38.6076 39.7495 41.102 42.8265 41.102Z"
+                                fill="#C1749E" />
+                        </svg>
+                    </div>
+                    <div class="location-country-title">Paris</div>
+                    <div class="location-text">
+                        19 Maypole Crescent
+                        Ilford,L62UJ
+                    </div>
+                    <button class="location-btn-1">(415) 870 – 3204</button>
+                </div>
+
+                <div class="location-card">
+                    <div class="location-icon">
+                        <svg class="location-svg" xmlns="http://www.w3.org/2000/svg" width="85" height="84"
+                            viewBox="0 0 85 84" fill="none">
+                            <circle cx="42.5" cy="42" r="42" fill="#F5E9DB" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M42.4286 61C42.4286 61 56.3571 43.6211 56.3571 35.9286C56.3571 28.236 50.1211 22 42.4286 22C34.736 22 28.5 28.236 28.5 35.9286C28.5 43.6211 42.4286 61 42.4286 61ZM42.8265 41.102C45.9035 41.102 48.398 38.6076 48.398 35.5306C48.398 32.4536 45.9035 29.9592 42.8265 29.9592C39.7495 29.9592 37.2551 32.4536 37.2551 35.5306C37.2551 38.6076 39.7495 41.102 42.8265 41.102Z"
+                                fill="#D39854" />
+                        </svg>
+                    </div>
+                    <div class="location-country-title">Paris</div>
+                    <div class="location-text">
+                        19 Maypole Crescent
+                        Ilford,L62UJ
+                    </div>
+                    <button class="location-btn-2">(415) 870 – 3204</button>
+                </div>
+
+                <div class="location-card">
+                    <div class="location-icon">
+                        <svg class="location-svg" xmlns="http://www.w3.org/2000/svg" width="85" height="84"
+                            viewBox="0 0 85 84" fill="none">
+                            <circle cx="42.5" cy="42" r="42" fill="#CBEFF1" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M42.4286 61C42.4286 61 56.3571 43.6211 56.3571 35.9286C56.3571 28.236 50.1211 22 42.4286 22C34.736 22 28.5 28.236 28.5 35.9286C28.5 43.6211 42.4286 61 42.4286 61ZM42.8265 41.102C45.9035 41.102 48.398 38.6076 48.398 35.5306C48.398 32.4536 45.9035 29.9592 42.8265 29.9592C39.7495 29.9592 37.2551 32.4536 37.2551 35.5306C37.2551 38.6076 39.7495 41.102 42.8265 41.102Z"
+                                fill="#5B9093" />
+                        </svg>
+                    </div>
+                    <div class="location-country-title">Paris</div>
+                    <div class="location-text">
+                        19 Maypole Crescent
+                        Ilford,L62UJ
+                    </div>
+                    <button class="location-btn-3">(415) 870 – 3204</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="question-container">
+
+            <div class="question-header">
+                Frequently Asked Questions
+            </div>
+
+            <div class="question-box">
+
+                <div class="questions">
+                    1. Where is my order? Quisque molestie
+                    <!-- <div class="open-ans">></div> -->
+                    <div class="open-ans">
+                        <img class="arrow-icon" src="assets/img/side-arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="questions-answer-container">
+                    <div class="question-data">
+                        2. How can I return an item purchased online?
+                        <!-- <div class="close-ans">v</div> -->
+                        <div class="close-ans">
+                            <img class="arrow-down-icon" src="assets/img/bottom-arrow.png" alt="">
+                        </div>
+                    </div>
+                    <div class="answer-data">
+                        The are going to use a passage of Lorem Ipsum, you need to be sure tdembarrassing hidden in the
+                        middle of text. All the Lorem generators on the Internet tend to repeat predefined chunks as
+                        necessary, making this the first true generator on the Internet.
+                    </div>
+                </div>
+
+                <div class="questions">
+                    3. Can I cancel or change my order?
+                    <!-- <div class="close-ans">v</div> -->
+                    <div class="open-ans">
+                        <img class="arrow-icon" src="assets/img/side-arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="questions">
+                    4. I have a promotional or discount code?
+                    <!-- <div class="close-ans">v</div> -->
+                    <div class="open-ans">
+                        <img class="arrow-icon" src="assets/img/side-arrow.png" alt="">
+                    </div>
+                </div>
+
+                <div class="questions">
+                    5. Can I integrate my store with Facebook?
+                    <!-- <div class="close-ans">v</div> -->
+                    <div class="open-ans">
+                        <img class="arrow-icon" src="assets/img/side-arrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <div class="border-line"></div>
+
+    <footer id="footer">
+
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-6 footer-contact">
+                        <a href="index.html"><img src="./assets/img/logo.png" class="bottom-logo"
+                                alt="BharatHealth logo" /></a>
+                        <p class="footer_wrapper_text">
+                            It is a long established fact that from will be distracted by the readable from when
+                            looking.
+                        </p>
+                        <p class="footer-email">
+                            <span><i class='bx bx-envelope'></i></span><a
+                                href="mailto:saasup@gmail.com">saasup@gmail.com</a>
+                            <a href="mailto:mail@saasup.com">mail@saasup.com</a>
+
+                        </p>
+
+                        <p class="footer-phone">
+                            <span><i class='bx bxs-phone-call'></i></span> <a href="tel:+987 6541 3654">
+                                +987 6541 3654
+                            </a>
+                            <a href="tel:+987 6541 3654">
+                                +001 6547 6589
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Pages</h4>
+                        <div class="text-border-line"></div>
+
+                        <ul>
+                            <li> <a href="javascript:void(0)" onclick="redirectToAnotherPage('index.html')">Home</a>
+                            </li>
+                            <li> <a href="javascript:void(0)" onclick="redirectToAnotherPage('about.html')">About us</a>
+                            </li>
+                            <li> <a href="javascript:void(0)"
+                                    onclick="redirectToAnotherPage('integration.html')">Integrations</a>
+                            </li>
+                            <li> <a href="javascript:void(0)" onclick="redirectToAnotherPage('price.html')">Pricing</a>
+                            </li>
+                            <li> <a href="javascript:void(0)"
+                                    onclick="redirectToAnotherPage('features.html')">Features</a></li>
+                            <li> <a href="javascript:void(0)" onclick="redirectToAnotherPage('contactUs.html')">Contact
+                                    Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Utility Pages</h4>
+                        <div class="text-border-line"></div>
+
+                        <ul>
+                            <li> <a href="javascript:void(0)">Password</a></li>
+                            <li> <a href="javascript:void(0)">Protected</a></li>
+                            <li> <a href="javascript:void(0)" onclick="redirectToAnotherPage('notfound.html')">404 Not
+                                    Found</a></li>
+                            <li> <a href="javascript:void(0)">Style Guide</a></li>
+                            <li> <a href="javascript:void(0)">Licenses</a></li>
+                            <li> <a href="javascript:void(0)">Changelog</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 footer-links">
+                        <h6 class="footer-right-text">Download</h6>
+                        <h2 class="footer-heading">Its suitable to all decvices and screens</h2>
+                        <p class="footer_wrapper_text">It is a long established fact that a reader will be distracted
+                            layout.</p>
+                        <div class="button-footer">
+                            <a href="javascript:void(0)" class="btn footer-button btn-primary-vt"><i
+                                    class='bx bxl-apple'></i> App Store</a>
+                            <a href="javascript:void(0)" class="btn footer-button btn-secondery-vt"><i
+                                    class='bx bxl-play-store'></i> Play Store</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="border-line"></div>
+
+        <div class="container copyright-conatiner py-4">
+            <div class="copyright">
+                Copyright &copy; - Powered by FlexEHR
+            </div>
+            <div class="credits">
+                <p class="footers-social-icons">
+                    <a href="javascript:void(0)"><i class='bx bxl-facebook'></i></a>
+                    <a href="javascript:void(0)"><i class='bx bxl-twitter'></i></a>
+                    <a href="javascript:void(0)"><i class='bx bxl-linkedin'></i></a>
+                    <a href="javascript:void(0)"><i class='bx bxl-instagram'></i></a>
+                </p>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a> -->
+
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <script>
+        // JavaScript function to redirect to another page
+        function redirectToAnotherPage(data) {
+            window.location.href = data;
+        }
+    </script>
+
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+
+  *{
+    font-family: Nunito;
+  }
+
+  #header.header-transparent {
+    margin-top: 0px;
+    background: #fff;
+  }
+  
+  
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  /**
+  * Desktop Navigation 
+  */
+  .navbar {
+    padding: 0;
+    background-color: #f9f9f9;
+    border-radius: 32px;
+  }
+  
+/* *************------- MAIN -------**************** */
+
+
+.not-found-conatiner {
+  margin-top: 10%;
+  width: 77%;
+  margin-left: 11%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4%;
+  padding: 80px 0px;
+  border-bottom: 1px solid #E3E3E3;
+}
+
+.not-found-header {
+    color: #1AA9C5;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.not-found-title {
+    margin-top: 1%;
+    color: #242330;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+.not-found-text {
+    margin-top: 2%;
+    width: 52%;
+    color: #797979;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 157.4%;
+}
+
+.not-found-btn {
+    border-radius: 39px;
+    background: #1AA9C5;
+    display: flex;
+    color: #fff;
+    padding: 10px 25px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    margin-top: 3%;
+    gap: 10px;
+}
+
+
+
+/* ---------------- MEDIA QUERY PART ------------------ */
+
+/* Styles for default (all devices) */
+/* Styles for small screens (e.g., mobile phones) */
+@media only screen and (max-width: 600px){
+.not-found-conatiner {
+  margin-top: 22%;
+}  
+}
+
+/* Styles for medium-sized screens (e.g., tablets) */
+@media only screen and (min-width: 601px) and (max-width: 768px){
+.not-found-conatiner {
+  margin-top: 18%;
+}  
+}
+
+@media only screen and (min-width: 740px) and (max-width: 768px){
+.not-found-conatiner {
+  margin-top: 16%;
+}  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+.not-found-conatiner {
+  margin-top: 14%;
+}  
+}
+
+
+@media (max-width: 515px){
+.not-found-conatiner {
+  margin-top: 22%;
+}  
+} 
+
+@media (max-width: 450px){
+.not-found-conatiner {
+  margin-top: 22%;
+}  
+}
+
+@media (max-width: 400px){
+  .not-found-conatiner {
+    margin-top: 22%;
+  }  
+  .not-found-header {
+    font-size: 60px;
+}
+.not-found-title {
+  font-size: 26px;
+}
+  .not-found-text {
+    width: 95%;
+    padding: 5%;
+    font-size: 17px;
+}
+
+.not-found-btn {
+    margin-top: 5%;
+}
+  }
+
+
+/* ---------------- MEDIA QUERY PART ------------------ */
+
+
+
+
+
+/* *************------- MAIN -------**************** */
+
+  
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+  #footer {
+    padding: 0 0 30px 0;
+    color: #47536e;
+    font-size: 14px;
+    background: #fff;
+  }
